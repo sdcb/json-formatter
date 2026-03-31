@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2535"/>
+      <stop offset="1" stop-color="#0D1520"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD78A"/>
+      <stop offset="1" stop-color="#E8A840"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="13.5" stroke="white" stroke-opacity="0.06"/>
+  <!-- Left curly brace { -->
+  <path d="M24 14 C20 14 18 16.5 18 20 V27 C18 29.5 16 31.5 14 32 C16 32.5 18 34.5 18 37 V44 C18 47.5 20 50 24 50" stroke="url(#gold)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right curly brace } -->
+  <path d="M40 14 C44 14 46 16.5 46 20 V27 C46 29.5 48 31.5 50 32 C48 32.5 46 34.5 46 37 V44 C46 47.5 44 50 40 50" stroke="url(#gold)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Formatted content lines with indentation -->
+  <line x1="26" y1="23" x2="38" y2="23" stroke="#D0DCE8" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="29" y1="30" x2="38" y2="30" stroke="#D0DCE8" stroke-opacity="0.55" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="29" y1="37" x2="36" y2="37" stroke="#D0DCE8" stroke-opacity="0.55" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="26" y1="44" x2="35" y2="44" stroke="#D0DCE8" stroke-width="2.8" stroke-linecap="round"/>
+</svg>

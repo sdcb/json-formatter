@@ -4,9 +4,15 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "src/**"
+      - ".github/workflows/deploy.yml"
   pull_request:
     branches:
       - main
+    paths:
+      - "src/**"
+      - ".github/workflows/deploy.yml"
 
 jobs:
   deploy:

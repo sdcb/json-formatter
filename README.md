@@ -1,6 +1,6 @@
 # JSON Formatter
 
-一个简洁的单页 JSON 格式化工具。左侧输入原始 JSON，选择缩进方式后点击 `Format JSON`，右侧输出格式化结果。
+一个简洁的单页 JSON 格式化工具。左侧输入原始 JSON，选择缩进方式后点击 `Format JSON`，右侧输出格式化结果。生产环境地址：<https://json-formatter.sdcb.ai/>，当前部署在 `Cloudflare`。
 
 ![JSON Formatter Screenshot](https://github.com/user-attachments/assets/b7d687b1-2eaf-4859-bebd-21fe425b1a30)
 

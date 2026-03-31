@@ -44,6 +44,10 @@ textarea {
 .page-header {
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .brand {
@@ -139,6 +143,7 @@ textarea {
     background-color 160ms ease,
     border-color 160ms ease,
     transform 160ms ease;
+  text-decoration: none;
 }
 
 .icon-button:hover:not(:disabled) {
@@ -156,6 +161,10 @@ textarea {
 .icon-button:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+}
+
+.header-link {
+  flex: 0 0 auto;
 }
 
 .editor-shell {

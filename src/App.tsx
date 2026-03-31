@@ -1,4 +1,5 @@
 import { useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
+import faviconUrl from "../favicon.svg";
 import CopyButton from "./components/CopyButton";
 import MonacoEditor from "./components/MonacoEditor";
 import type { IndentOption } from "./types";
@@ -127,7 +128,7 @@ export default function App() {
     <main className="app-shell">
       <header className="page-header">
         <div className="brand">
-          <img alt="" className="brand-mark" height="32" src="/favicon.svg" width="32" />
+          <img alt="" className="brand-mark" height="32" src={faviconUrl} width="32" />
           <h1>JSON Formatter</h1>
         </div>
       </header>
